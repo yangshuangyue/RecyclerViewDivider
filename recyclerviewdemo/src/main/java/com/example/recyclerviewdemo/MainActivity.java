@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void init() {
+        //添加注释
         findViewById(R.id.btn_vertical).setOnClickListener(this);
         findViewById(R.id.btn_horizontal).setOnClickListener(this);
         findViewById(R.id.btn_vertical_grid).setOnClickListener(this);
