@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vertical"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_horizontal"
+        android:layout_width="match_parent"
+        android:text="Horizontal"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_vertical_grid"
+        android:layout_width="match_parent"
+        android:text="VerticalGrid"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_horizontal_grid"
+        android:layout_width="match_parent"
+        android:text="HorizontalGrid"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_vertical_staggered"
+        android:layout_width="match_parent"
+        android:text="VerticalStaggered"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_horizontal_staggered"
+        android:layout_width="match_parent"
+        android:text="HorizontalStaggered"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+</LinearLayout>
